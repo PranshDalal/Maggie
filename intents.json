@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hello", "Hey", "Hi"],
+    "responses": ["Hello!", "Hi there!", "Hey! How can I assist you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "goodbye", "Cya later"],
+    "responses": ["Goodbye!", "See you later!", "Bye"]
+    },
+    {"tag": "food",
+    "patterns": ["I am hungry", "I could eat", "Do you know any food places near by"],
+    "responses": ["Sure, I can suggest some food places near you!"]
+    },
+    {"tag": "name",
+    "patterns": ["Who are you", "What is your name", "What should I call you"],
+    "responses": ["I am maggie", "I go by the name of maggie", "You can call me maggie"]
+    },
+    {"tag": "games",
+    "patterns": ["Can we play a game", "I am bored, lets play a game", "I want to play a game"],
+    "responses": ["Sure lets play", "Of course, lets play a game", "Sure, lets play a game"]
+    },
+    {"tag": "calendar",
+    "patterns": ["Show me my calendar", "Take me to my calendar", "I want to see my calendar"],
+    "responses": ["Sure"]
+    },
+    {"tag": "music",
+    "patterns": ["Play a song", "Can you play a song", "Can you play some music"],
+    "responses": ["Sure"]
+    },
+    {"tag": "joke",
+    "patterns": ["can you tell me a joke", "do you know any jokes", "tell me a funny joke"],
+    "responses": ["Sure"]
+    },
+    {"tag": "fallback",
+    "patterns": [],
+    "responses":["I could not understand that, can you please try again"]
+    }
+]}
