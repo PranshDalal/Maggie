@@ -2,7 +2,7 @@ import requests
 import speech_recognition as sr
 import pyttsx3
 
-YELP_API_KEY = 'NgiQYiSLQsI8VNxFV1f-RD4Lrjl_pLEEdGMVupWT2oKPtyDzpcbARmAtj43NsrFe1KwztXYBbnEf38hUnMxDj4OJb3DyB2oX6L5PcMch5rfT3uLZQEBvKar79SXAZHYx'
+YELP_API_KEY = 'API_KEY'
 
 def speak(text):
     engine = pyttsx3.init()
