@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 import pyttsx3
 import speech_recognition as sr
 
-API_KEY = "AIzaSyCg7BpEYJB1yDIeiGsTS-D7R-aHJx9ygxQ"
+API_KEY = "API_KEY"
 SCOPES = ["https://www.googleapis.com/auth/calendar.events"]
 
 def recognize_speech():
